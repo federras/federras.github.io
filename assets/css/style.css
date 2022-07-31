@@ -756,6 +756,14 @@ a:hover {
   margin-bottom: 30px;
 }
 
+@media (max-width: 768px) {
+  .servicio-fila {
+  display: grid;
+  grid-template-columns:repeat(2, 25%);
+  grid-gap: 20px;
+}
+}
+
 .Texto-icono-skill {
   display: flex;
   font-weight: 500;
@@ -782,7 +790,13 @@ a:hover {
   margin-right: auto;
   margin-top: auto;
   margin-bottom: auto;
-  margin-top: 80px;
+}
+
+
+@media (min-width: 767px) {
+  .img-fede {
+    margin-top: 80px;
+  }
 }
 
 .about-mf .about-img {
