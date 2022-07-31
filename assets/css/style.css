@@ -739,6 +739,8 @@ a:hover {
   border-radius: 50%;
   background-color: #ffffffae;
   border-color: none;
+  width: 90px;
+  height: 90px;
 }
 
 .skill-redondo :hover {
